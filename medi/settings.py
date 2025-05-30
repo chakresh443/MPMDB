@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-wc!bkp6gr0p)rc&s1)jkmu+!^1v$=z%lha20h692%25l&tg+j0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'mpmdb.onrender.com', 'mpmetdb.onrender.com']
-
+# ALLOWED_HOSTS = ['127.0.0.1', 'mpmdb.onrender.com', 'mpmetdb.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
